@@ -1,0 +1,39 @@
+{
+  "name": "powercore_backend",
+  "version": "1.0.0",
+  "description": "Backend application code for Acecore Co.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "David Kemdirim",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.2.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node": "^21.6.2",
+    "nodemailer": "^6.9.11",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "request": "^2.88.2"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidJoanes/omokuprenuers_backend/issues"
+  },
+  "homepage": "https://github.com/DavidJoanes/omokuprenuers_backend#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidJoanes/powercore_backend.git"
+  }
+}
